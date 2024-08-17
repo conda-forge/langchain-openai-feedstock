@@ -1,4 +1,4 @@
-{% set version = "0.1.21" %}
+{% set version = "0.1.22" %}
 
 package:
   name: langchain-openai
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/l/langchain-openai/langchain_openai-{{ version }}.tar.gz
-  sha256: 2c65feaf12bb284eccf7bce35725fd06f3035fa751babad6aa84af2f99867f88
+  sha256: 0cf93133f230a893e3b0cc2a792bbf2580950e879b577f6e8d4ff9963a7de44b
 
 build:
   number: 0
