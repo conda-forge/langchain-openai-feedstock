@@ -27,11 +27,11 @@ requirements:
 test:
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
   imports:
     - langchain_openai
-    - python {{ python_min }}
 
 about:
   home: https://github.com/langchain-ai/langchain/tree/master/libs/partners/openai
