@@ -1,4 +1,4 @@
-{% set version = "0.3.24" %}
+{% set version = "0.3.25" %}
 
 package:
   name: langchain-openai
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/l/langchain-openai/langchain_openai-{{ version }}.tar.gz
-  sha256: cec1ab4ce7a8680af1eb11427b4384d2ceb46e9b20ff3f7beb0b0d83cab61a97
+  sha256: 6dd33e4a2513cf915af6c2508e782d2c90956a88650739fd8d31e14bdb7f7e44
 
 build:
   number: 0
@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - langchain-core <1.0.0,>=0.3.65
+    - langchain-core <1.0.0,>=0.3.66
     - openai <2.0.0,>=1.86.0
     - tiktoken <1,>=0.7
 
