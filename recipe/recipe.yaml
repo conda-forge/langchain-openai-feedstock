@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 1.6.1
+  version: "1.6.2"
 
 package:
   name: langchain-openai
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/l/langchain-openai/langchain_openai-${{ version }}.tar.gz
-  sha256: a09c329d6d9c5b5bf7025c0d5a5cc8e7ec8d784d662861809e1ec1cce1cd3d26
+  sha256: bec6d190e1e47e774c2be8728bc93457cef1ab2ec3295c277d8daefab434e880
 
 build:
   number: 0
