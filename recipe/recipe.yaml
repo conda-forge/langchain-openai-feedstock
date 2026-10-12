@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 1.7.0
+  version: 1.7.1
 
 package:
   name: langchain-openai
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/l/langchain-openai/langchain_openai-${{ version }}.tar.gz
-  sha256: 7df2db16d32320ba563b7e4291a71ec6bf7b0ea8a5369ed2a0501d74928ea6d0
+  sha256: f9fa064c576911ff8d7c6566003bffb7eb5682c43d48407310d9de6b955f5496
 
 build:
   number: 0
@@ -24,7 +24,7 @@ requirements:
   run:
     - certifi >=2024.6.2
     - python >=${{ python_min }}
-    - langchain-core >=1.6.8,<2.0.0
+    - langchain-core >=1.6.10,<2.0.0
     - openai >=2.45.0,<4.0.0
     - tiktoken >=0.7.0,<1.0.0
 tests:
